@@ -1,0 +1,28 @@
+{
+  "name": "phoenix_webpack_vue_boilerplate",
+  "version": "1.0.0",
+  "description": "Phoenix webpack vuejs boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --progress --watch --optimize-minimize"
+  },
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.16.1",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "element-ui": "^1.2.7",
+    "moment": "^2.18.1",
+    "vue": "^2.2.6",
+    "vue-resource": "^1.3.0"
+  }
+}
